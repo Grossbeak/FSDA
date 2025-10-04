@@ -1,6 +1,6 @@
 # FSDA - Flutter Steam Desktop Authenticator
 
-Кроссплатформенное приложение Steam Desktop Authenticator на Flutter для Windows, Linux, macOS и Android.
+Кроссплатформенное приложение Steam Desktop Authenticator на Flutter для Windows, Linux и Android.
 
 ## 🚀 Возможности
 
@@ -21,20 +21,19 @@
 |-----------|--------|--------|-----------|
 | **Windows** | ✅ Готов | ~25 MB | GitHub Releases |
 | **Linux** | ✅ Готов | ~19 MB | AppImage или pacman |
-| **macOS** | ✅ Готов | ~25 MB | GitHub Releases |
 | **Android** | ✅ Готов | ~66 MB | APK или Google Play |
 
 ## 📦 Установка
 
 ### Windows
-1. Скачайте последний релиз с [GitHub Releases](https://github.com/pavelroot/FSDA/releases)
+1. Скачайте последний релиз с [GitHub Releases](https://github.com/Grossbeak/FSDA/releases)
 2. Распакуйте архив
 3. Запустите `fsda.exe`
 
 ### Linux (AppImage)
 ```bash
 # Скачайте AppImage
-wget https://github.com/pavelroot/FSDA/releases/download/v1.0.0/FSDA-x86_64.AppImage
+wget https://github.com/Grossbeak/FSDA/releases/download/v1.0.0/FSDA-x86_64.AppImage
 
 # Сделайте исполняемым
 chmod +x FSDA-x86_64.AppImage
@@ -45,15 +44,12 @@ chmod +x FSDA-x86_64.AppImage
 
 ### Linux (Arch Linux)
 ```bash
-# Установка через pacman (если пакет в AUR)
-yay -S fsda-bin
-
-# Или установка локального пакета
+# Установка локального пакета
 sudo pacman -U fsda-bin-1.0.0-1-x86_64.pkg.tar.zst
 ```
 
 ### Android
-1. Скачайте APK с [GitHub Releases](https://github.com/pavelroot/FSDA/releases)
+1. Скачайте APK с [GitHub Releases](https://github.com/Grossbeak/FSDA/releases)
 2. Включите "Неизвестные источники" в настройках
 3. Установите APK
 
@@ -156,9 +152,8 @@ flutter build macos --release        # macOS
 # Arch Linux пакет
 ./build_package_auto.sh
 
-# Android APK/AAB
+# Android APK
 flutter build apk --release
-flutter build appbundle --release
 ```
 
 ## 📚 Зависимости
@@ -168,7 +163,7 @@ flutter build appbundle --release
 - `file_picker` - Выбор файлов
 - `shared_preferences` - Локальное хранение
 - `http` - HTTP запросы
-- `qr_flutter` - Генерация QR кодов
+- `qr_flutter` - сканирование QR кодов
 - `url_launcher` - Открытие ссылок
 - `pointycastle` - RSA шифрование
 - `protobuf` - Steam Protobuf API
@@ -194,12 +189,11 @@ flutter build appbundle --release
 
 - **Windows** 10/11 (x64)
 - **Linux** Ubuntu 20.04+, Arch Linux, и другие дистрибутивы
-- **macOS** 10.15+ (Intel и Apple Silicon)
 - **Android** 5.0+ (API 21+)
 
 ## 📄 Лицензия
 
-MIT License - см. файл [LICENSE](LICENSE)
+GPL 3.0 License - см. файл [LICENSE](LICENSE)
 
 ## 🙏 Основано на
 
@@ -208,8 +202,8 @@ MIT License - см. файл [LICENSE](LICENSE)
 
 ## 📞 Поддержка
 
-- **Issues**: [GitHub Issues](https://github.com/pavelroot/FSDA/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/pavelroot/FSDA/discussions)
+- **Issues**: [GitHub Issues](https://github.com/Grossbeak/FSDA/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/Grossbeak/FSDA/discussions)
 
 ---
 
