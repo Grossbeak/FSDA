@@ -1,0 +1,14 @@
+syntax = "proto2";
+
+package steam;
+
+message CMsgIPAddress {
+  optional fixed32 v4 = 1;
+  optional bytes v6 = 2;
+}
+
+message CMsgIPAddressBucket {
+  optional .CMsgIPAddress original_ip_address = 1;
+  optional fixed64 bucket = 2;
+}
+

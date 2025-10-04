@@ -1,0 +1,9 @@
+# FSDA Configuration Example
+# Copy this file to res.conf and modify as needed
+
+# Window height configuration
+# Set to "no" to use screen height * 0.8, or specify a number for fixed height
+custom windows height: "no"
+
+# Example with fixed height:
+# custom windows height: "800"

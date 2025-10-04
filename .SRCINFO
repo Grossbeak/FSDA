@@ -1,0 +1,21 @@
+pkgbase = fsda
+	pkgdesc = FSDA - Steam Guard Desktop App - Desktop application for Steam Guard management
+	pkgver = 1.0.0
+	pkgrel = 1
+	url = https://github.com/pavelroot/FSDA
+	arch = x86_64
+	license = MIT
+	makedepends = flutter
+	makedepends = cmake
+	makedepends = ninja
+	makedepends = clang
+	makedepends = pkg-config
+	makedepends = imagemagick
+	depends = gtk3
+	depends = glib2
+	depends = flutter
+	source = https://github.com/pavelroot/FSDA/releases/download/v1.0.0/FSDA-x86_64.AppImage
+	sha256sums = SKIP
+
+pkgname = fsda
+
