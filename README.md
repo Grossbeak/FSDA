@@ -193,7 +193,7 @@ flutter build apk --release
 
 ## 📄 Лицензия
 
-GPL 3.0 License - см. файл [LICENSE](LICENSE)
+GPL 3.0 - см. файл [LICENSE](LICENSE)
 
 ## 🙏 Основано на
 
