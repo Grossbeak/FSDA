@@ -197,7 +197,7 @@ GPL 3.0 - см. файл [LICENSE](LICENSE)
 ## 🙏 Основано на
 
 - [Steam Desktop Authenticator](https://github.com/Jessecar96/SteamDesktopAuthenticator) (.NET)
-- [SDA-CLI](https://github.com/dyc3/SDA-CLI) (Rust)
+- [steamguard-cli](https://github.com/dyc3/steamguard-cli) (Rust)
 
 ## 📞 Поддержка
 
