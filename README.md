@@ -25,17 +25,17 @@
     </td>
     <td align="center">
       <img src="screenshots/2.png" alt="Авторизация" width="400"/>
-      <br><strong>Авторизация</strong>
+      <br><strong>Трейды</strong>
     </td>
   </tr>
   <tr>
     <td align="center">
       <img src="screenshots/3.png" alt="QR-код вход" width="400"/>
-      <br><strong>QR-код вход</strong>
+      <br><strong>Аккаунт</strong>
     </td>
     <td align="center">
       <img src="screenshots/4.png" alt="Подтверждения" width="400"/>
-      <br><strong>Подтверждения</strong>
+      <br><strong>QR-код вход</strong>
     </td>
   </tr>
 </table>
