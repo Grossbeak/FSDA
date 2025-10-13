@@ -42,7 +42,7 @@
 
 <div align="center">
   <img src="screenshots/5.png" alt="Дополнительный скриншот" width="100%"/>
-  <br><strong>Вид в Huprland</strong>
+  <br><strong>Вид в Hyprland</strong>
 </div>
 
 ## 🖥️ Поддерживаемые платформы
